@@ -1,2 +1,0 @@
-results_sampling/* filter=lfs diff=lfs merge=lfs -text
-results_prediction/* filter=lfs diff=lfs merge=lfs -text
