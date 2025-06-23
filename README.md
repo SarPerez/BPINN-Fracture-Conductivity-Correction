@@ -12,14 +12,14 @@ Traditional models such as the **Cubic Law** and **Darcy-based upscaling** often
 - Combining **data-driven learning** with **physics-based constraints**
 - Producing **local permeability maps** $K_{NN}^{ah}(x, y)$ reliable for **upscaling**
   
-We employ **Bayesian Physics-Informed Neural Network (BPINN)** for uncertainty-aware inference along with the **AW-HMC sampler** for adaptive task balancing across objectives
+We employ **Bayesian Physics-Informed Neural Network (BPINN)** for uncertainty-aware inference enhanced by the **AW-HMC sampler** for adaptive task balancing across objectives
 
 ---
 ## Main Code Modules
 ### `Sampling.py` — Bayesian Inference with B-PINN
-This script performs **Bayesian inference** to reconstruct the **latent hydraulic aperture field** from noisy mechanical aperture data and provides the posterior samples of the neural network parameters as main outputs.
+Performs **Bayesian inference** to reconstruct the **latent hydraulic aperture field** from noisy mechanical aperture data. Outputs posterior samples of the neural network parameters for hydraulic aperture and permeability fields inference.
 ### `Prediction.py` — Posterior Averaging and Visualization
-This script processes the output of `sampling.py` to generate **predictions of Bayesian Model Average, diagnostics and visualizations of uncertainties**.
+Processes the output of `sampling.py` to compute the **Bayesian Model Average (BMA)**, local uncertainties, and final corrected permeability maps. Also generates diagnostic plots and model comparisons.
 
 ---
 ## Citation
