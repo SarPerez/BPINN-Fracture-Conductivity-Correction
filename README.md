@@ -24,7 +24,7 @@ Processes the output of `sampling.py` to compute the **Bayesian Model Average (B
 ---
 ## Citation
 This repository contains the supplementary code to the following manuscript: 
-S. Perez et al. "When Cubic Law and Darcy Fail: Bayesian Correction of Model Misspecification in Fracture Conductivities".
-If you use this work, please cite the associated paper, currently its ArXiv version (https://arxiv.org/abs/2503.20788), and the GitHub repository (https://doi.org/10.5281/zenodo.15721753).
+S. Perez et al. (2025) "When Cubic Law and Darcy Fail: Bayesian Correction of Model Misspecification in Fracture Conductivities", Geophysical Research Letters, 52, e2025GL117776.
+If you use this work, please cite the associated GRL paper (https://doi.org/10.1029/2025GL117776), and the GitHub repository (https://doi.org/10.5281/zenodo.15721753).
 
 
